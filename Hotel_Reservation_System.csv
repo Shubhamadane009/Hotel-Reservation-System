@@ -1,0 +1,6 @@
+Field,Type,Null,Key,Default,Extra
+reservation_id,int,NO,PRI,NULL,auto_increment
+guest_name,varchar(255),NO,,NULL,
+room_number,int,NO,,NULL,
+contact_number,varchar(10),NO,,NULL,
+reservation_date,timestamp,YES,,CURRENT_TIMESTAMP,DEFAULT_GENERATED
